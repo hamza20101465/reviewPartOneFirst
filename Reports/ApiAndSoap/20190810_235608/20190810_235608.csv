@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApiAndSoap,,,,2019-08-10 23:56:15,2019-08-10 23:56:28,13.141s,INCOMPLETE
+,,,,,,,
+Test Cases/Api,,,,2019-08-10 23:56:16,2019-08-10 23:56:23,7.461s,FAILED
+"sendRequest(findTestObject(""API/2-Post""))",,,,2019-08-10 23:56:16,2019-08-10 23:56:21,4.439s,PASSED
+"sendRequestAndVerify(findTestObject(""API/2-Post""))",,,,2019-08-10 23:56:21,2019-08-10 23:56:23,2.161s,FAILED
+,,,,,,,
+Test Cases/Soap,,,,2019-08-10 23:56:23,2019-08-10 23:56:28,4.948s,PASSED
+"responseOne = sendRequest(findTestObject(""Soap/1-Add""))",,,,2019-08-10 23:56:24,2019-08-10 23:56:26,1.641s,PASSED
+"responseTwo = sendRequestAndVerify(findTestObject(""Soap/1-Add""))",,,,2019-08-10 23:56:26,2019-08-10 23:56:28,2.075s,PASSED
+println(responseOne),,,,2019-08-10 23:56:28,2019-08-10 23:56:28,0.036s,PASSED
+println(responseTwo),,,,2019-08-10 23:56:28,2019-08-10 23:56:28,0.002s,PASSED
